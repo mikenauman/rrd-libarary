@@ -47,5 +47,10 @@
     "ts-node": "~3.2.0",
     "tslint": "~5.3.2",
     "typescript": "~2.3.3"
-  }
+  },
+  "main": "bundles/rrd-library.umd.js",
+  "module": "rrd-library/rrd-library.es5.js",
+  "es2015": "rrd-library/rrd-library.js",
+  "typings": "rrd-library.d.ts",
+  "metadata": "rrd-library.metadata.json"
 }
