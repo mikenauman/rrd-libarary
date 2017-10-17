@@ -1,5 +1,17 @@
 # RrdLibrary
 
+The is a library of reusable components for the Agile Day presentation only. After importing the library you can access the following components.
+
+---
+
+## Header Component
+
+This is the standard header for the top of all applications.
+
+Usage: Add `<app-header></app-header>` to the main template of the page. If you want to add a title then you can put text between the tags like this: `<app-header>The Title</app-header>`.
+
+---
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.3.
 
 ## Development server
@@ -13,6 +25,10 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+
+## Package for installing in other apps
+
+Run `npm run packagr` from the root of the project to create a package. Then `cd` to the `dist/` directory and run `npm pack` to get a tarball that you can import. If you want to change the version number, edit the version in the `package.json` file in the root of the project.
 
 ## Running unit tests
 
